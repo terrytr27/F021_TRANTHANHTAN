@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sum To N</title>
+
+    <!-- You may add more stuff here -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <form onsubmit="return !1">
+      <h2>Problem 1: Sum To N</h2>
+      <label for="input-number">Enter your number here</label>
+      <input id="input-number" type="text" pattern="\d*" />
+      <br />
+      <br />
+      <label for="sum-to-n-first-sol">First solution result: </label>
+      <span id="#sum-to-n-first-sol"></span>
+      <br />
+      <br />
+      <label for="sum-to-n-sec-sol">Second solution result: </label>
+      <span id="#sum-to-n-sec-sol"></span>
+      <br />
+      <br />
+      <label for="sum-to-n-third-sol">Third solution result: </label>
+      <span id="#sum-to-n-third-sol"></span>
+      <br />
+      <br />
+      <button onclick="calculate()">Calculate</button>
+    </form>
+    <script src="utils.js"></script>
+    <script type="text/javascript">
+      function calculate() {
+        let number = parseInt(document.getElementById("input-number").value);
+        document.getElementById("#sum-to-n-first-sol").innerHTML =
+          sumToNFirstSol(number);
+        document.getElementById("#sum-to-n-sec-sol").innerHTML =
+          sumToNSecSol(number);
+        document.getElementById("#sum-to-n-third-sol").innerHTML =
+          sumToNThirdSol(number);
+      }
+    </script>
+  </body>
+</html>
