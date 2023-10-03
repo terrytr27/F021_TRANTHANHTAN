@@ -8,11 +8,13 @@ This repo is a solution for the coding challenges from https://github.com/99tech
 
 ### Problem 1: Sum to N in 3 different ways
 
+- Duration: 8 mins
 - Reference: https://www.cuemath.com/sum-of-natural-numbers-formula/
 - Procedure: Go to `./problem1/` and open `index.html` in a browser.
 
 ### Problem 2: Fancy Form
 
+- Duration: 1 hour 30 mins
 - Reference:
   1. https://www.xe.com/currencyconverter/
   2. https://app.uniswap.org/swap
@@ -25,5 +27,6 @@ This repo is a solution for the coding challenges from https://github.com/99tech
 
 ### Problem 3: Messy React
 
+- Duration: 5 mins
 - Procedure: Go to `./problem3/messy-react.sx`
 - Each comment includes `Issue` for pointing out the code block problem and `Suggested` for ideal solution.
